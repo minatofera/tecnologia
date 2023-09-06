@@ -1,0 +1,25 @@
+programa {
+  inteiro: cpf// essa variavel guarda numeros
+  cadeia: nome //essa variavel guarda textos
+  cadeia: senha//essa variavel guarda textos
+  cadeia: confirmar
+
+  funcao inicio() {
+
+    escreva("Digite o seu cpf: ") //mostra o texto na tela
+    leia(cpf) // recebe do usuario uma entrada
+
+    escreva("Digite o seu nome: ") //mostra o texto na tela
+    leia(nome)//recebe do usuario uma entrada
+
+    escreva("crie uma senha: ") //mostra o texto na tela
+    leia(senha)// recebe do usuario uma entrada
+
+    escreva("Digite confirmar para confirmar: ") //mostra o texto na tela
+    leia(confirmar)// recebe do usuario uma entrada
+
+    escreva("conta criada com sucesso") //mostra o texto na tela
+
+  }
+}
+
